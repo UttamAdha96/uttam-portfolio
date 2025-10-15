@@ -47,7 +47,7 @@ export default function Contact() {
                   <a href="https://github.com/UttamAdha96" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="social-icon" />
                   </a>
-                  <a href="https://linkedin.com/in/uttamadha" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/uttam-adha-50bb40208/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="social-icon" />
                   </a>
         </div>

@@ -183,7 +183,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
-  padding: 0 2rem;
 }
 
 .skill-card {
@@ -457,3 +456,59 @@ section {
   transition: color 0.3s;
 }
 
+/* Responsive Mobile Adjustments */
+@media (max-width: 768px) {
+
+  /* Sections padding */
+  section {
+    padding: 50px 15px;
+  }
+
+
+
+  /* Skills grid */
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 10px;
+  }
+
+  /* Project grid */
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .project-card-modern {
+    padding: 20px;
+  }
+
+  /* Certificates grid */
+  .cert-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .cert-card {
+    width: 90%;
+  }
+
+  /* Contact form */
+  .form-group {
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  /* Navbar links */
+  .nav-links {
+    width: 90%;
+    right: 5%;
+    padding: 15px;
+  }
+}

@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="projects modern-projects">
-      <h2 className="section-title">🚀 Featured Projects</h2>
+      <h2 className="section-title">Featured Projects</h2>
       <div className="project-grid">
         {projects.map((p, i) => (
           <div className="project-card-modern" key={i}>
